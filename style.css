@@ -1,0 +1,38 @@
+body {
+	font-family: sans-serif;
+	color: white;
+	margin: 0;
+	background-color: white;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+p{
+	font-size: 16px
+}
+
+.nadpis {
+	font-weight: 300;
+	font-size: 40px;
+	margin: 0 0 0 0;
+}
+	
+.prvaSekcia {
+	margin: 0;
+	background-color: #3597ff;
+	padding: 6% 6%;
+}
+
+.prvyObrazok {
+	width: 542px;
+	height: 418px;
+	position: 22 0 768 225;
+	position: absolute;
+    left: 50%;
+    bottom: 48%;
+    max-width: 50%;
+    max-height: 95%;
+    z-index: 46;
+}
