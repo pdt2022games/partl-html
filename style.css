@@ -1,38 +1,177 @@
 body {
-	font-family: sans-serif;
-	color: white;
-	margin: 0;
-	background-color: white;
+  font-family: sans-serif;
+  color: white;
+  margin: 0;
+  background-color: white;
 }
 
 h1 {
-	font-weight: 300;
+  font-weight: 300;
 }
 
-p{
-	font-size: 16px
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .nadpis {
-	font-weight: 300;
-	font-size: 40px;
-	margin: 0 0 0 0;
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0 0 0 0;
 }
-	
+
 .prvaSekcia {
-	margin: 0;
-	background-color: #3597ff;
-	padding: 6% 6%;
+  margin: 0;
+  background-color: #3597ff;
+  padding: 6% 6%;
 }
 
 .prvyObrazok {
-	width: 542px;
-	height: 418px;
-	position: 22 0 768 225;
-	position: absolute;
-    left: 50%;
-    bottom: 48%;
-    max-width: 50%;
-    max-height: 95%;
-    z-index: 46;
+  width: 542px;
+  height: 418px;
+  position: 22 0 768 225;
+  position: absolute;
+  left: 50%;
+  bottom: 48%;
+  max-width: 50%;
+  max-height: 95%;
+  z-index: 46;
+  display: flex;
+}
+
+.druhyNadpis {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.druhaSekcia {
+  color: #566b8d;
+  font-size: 16px;
+  text-align: center;
+}
+
+.goofy1 {
+  color: black;
+  font-size: 20px;
+  margin-top: 4%;
+}
+
+.aMimir {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.osnovy {
+  color: #566b8d;
+}
+
+.tretiaSekcia {
+  color: black;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tretiaSekciaSub {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boliMaHlava {
+  color: #566b8d;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.tretiNadpis {
+  text-align: left;
+}
+
+.h1JeNadmerneKomicke {
+  margin: 5px;
+  font-weight: bold;
+  font-size: 90px;
+}
+
+.h4JeTaktiezKomicke {
+  margin: 0;
+}
+
+.kocky {
+  padding-right: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.kocka1 {
+  color: #5b94d7;
+  background-color: rgba(221, 236, 251, 0.4);
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: end;
+  margin: 5px;
+  width: 230px;
+  height: 180px;
+  border-radius: 4px;
+}
+
+.kocka2 {
+  color: #5cc19a;
+  background-color: rgba(156, 238, 204, 0.4);
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: end;
+  margin: 5px;
+  align-items: flex-end;
+  width: 230px;
+  height: 180px;
+  border-radius: 4px;
+}
+
+.kocka3 {
+  color: #dbca68;
+  background-color: rgba(238, 226, 156, 0.4);
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: end;
+  margin: 5px;
+  align-items: flex-end;
+  width: 230px;
+  height: 180px;
+  border-radius: 4px;
+}
+
+.kocka4 {
+  color: #b95e73;
+  background-color: rgba(238, 156, 156, 0.4);
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: end;
+  margin: 5px;
+  align-items: flex-end;
+  width: 230px;
+  height: 180px;
+  border-radius: 4px;
 }
